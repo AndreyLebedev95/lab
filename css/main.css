@@ -1,0 +1,43 @@
+.coeficient__symbol {
+    display: inline-block;
+    font-size: 22px;
+    width: 20px;
+}
+.name {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+.coeficient__one-coeficient {
+    margin-bottom: 10px;
+}
+.controls__title {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.contols {
+    float: left;
+    border: 1px solid black;
+    width: 400px;
+    padding: 10px;
+}
+.windows-size__symbol {
+    display: inline-block;
+}
+.widow-size__field {
+    width: 40px;
+}
+.controls__accept-buttons {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.graphic {
+    float: right;
+}

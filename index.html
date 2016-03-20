@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="contols">
+    <div class="name">Лебедев Андрей Олегович <br> ИТ - 31 БО</div>
+    <div class="contols__block controls__coeficient">
+        <div class="controls__title">Коэфициенты</div>
+        <div class="coeficient__one-coeficient">
+            <div class="coeficient__symbol">&#945;</div>
+            <input id="simbol-alpha" type="text" class="coeficient__field">
+        </div>
+        <div class="coeficient__one-coeficient">
+            <div class="coeficient__symbol">&#946;</div>
+            <input id="simbol-beta" type="text" class="coeficient__field">
+        </div>
+        <div class="coeficient__one-coeficient">
+            <div class="coeficient__symbol">&#947;</div>
+            <input id="simbol-gamma" type="text" class="coeficient__field">
+        </div>
+        <div class="coeficient__one-coeficient">
+            <div class="coeficient__symbol">&#948;</div>
+            <input id="simbol-delta" type="text" class="coeficient__field">
+        </div>
+        <div class="coeficient__one-coeficient">
+            <div class="coeficient__symbol">n</div>
+            <input id="simbol-n" type="text" class="coeficient__field">
+        </div>
+        <div class="coeficient__one-coeficient">
+            <div class="coeficient__symbol">&#9650;</div>
+            <input id="stepSize" type="text" class="coeficient__field">
+        </div>
+    </div>
+    <div class="contols__block controls__window-size">
+        <div class="controls__title">Размер окна</div>
+        <div class="window-size">
+            <div class="windows-size__symbol">[</div>
+            <input id="pointA" type="text" class="widow-size__field" maxlength="3">
+            <div class="windows-size__symbol">;</div>
+            <input id="pointB" type="text" class="widow-size__field" maxlength="3">
+            <div class="windows-size__symbol">] X [</div>
+            <input id="pointC" type="text" class="widow-size__field" maxlength="3">
+            <div class="windows-size__symbol">;</div>
+            <input id="pointD" type="text" class="widow-size__field" maxlength="3">
+            <div class="windows-size__symbol">]</div>
+        </div>
+    </div>
+    <div class="controls__block controls__function">
+        <div class="controls__title">Нужные функции</div>
+        <div class="funtion">
+            <div class="function__one-fucion">
+                f(x)
+            </div>
+            <input type="checkbox" id="f">
+        </div>
+        <div class="funtion">
+            <div class="function__one-fucion">
+                P(x)
+            </div>
+            <input type="checkbox" id="P">
+        </div>
+        <div class="funtion">
+            <div class="function__one-fucion">
+                R(x)
+            </div>
+            <input type="checkbox" id="R">
+        </div>
+    </div>
+    <div id="acceptDraw" class="controls__accept-buttons">
+        Принять
+    </div>
+</div>
+<div id="graph" class="graphic" style="width:900px;height:300px">
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.flot.js"></script>
+<script src="js/main.js"></script>
+<script src="css/resourses/clearcss.js"></script>
+</body>
+</html>
